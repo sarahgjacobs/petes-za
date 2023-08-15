@@ -1,33 +1,37 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+// import '../styles'
 
 function Navbar() {
+
+    const [openLinks, setOpenLinks] = useState(false);
+
   return (
     <nav className="navbar">
-      <h1 className="navbar__title">Sarah Jacobs</h1>
-      <ul className="navbar__links">
-        <li className="navbar__item">
-          <Link to="/" className="navbar__link">
+      <h1 className="">Pete's Za</h1>
+      <ul className="">
+        <li className="">
+          <Link to="/" className="">
             Home
           </Link>
         </li>
-        <li className="navbar__item">
-          <Link to="/about" className="navbar__link">
+        <li className="">
+          <Link to="/about" className="">
             About
           </Link>
         </li>
-        <li className="navbar__item">
-          <Link to="/projects" className="navbar__link">
-            Projects
+        <li className="">
+          <Link to="/menu" className="">
+            Menu
           </Link>
         </li>
-        <li className="navbar__item">
-          <Link to="/contact" className="navbar__link">
+        <li className="">
+          <Link to="/contact" className="">
             Contact
           </Link>
         </li>
       </ul>
-      <div className="navbar__bar"></div>
+      <div className=""></div>
     </nav>
   );
 }
