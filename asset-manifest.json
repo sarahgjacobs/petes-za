@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1000d776.css",
-    "main.js": "/static/js/main.bf0e6595.js",
-    "static/js/787.05c3fce7.chunk.js": "/static/js/787.05c3fce7.chunk.js",
-    "static/media/brenan-greene-HPZs4EXRFSU-unsplash.jpg": "/static/media/brenan-greene-HPZs4EXRFSU-unsplash.ede5c9e389ac4a1c1d6d.jpg",
-    "static/media/masimo-grabar-NzHRSLhc6Cs-unsplash.jpg": "/static/media/masimo-grabar-NzHRSLhc6Cs-unsplash.fb586710978de4f8ef40.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.1000d776.css.map": "/static/css/main.1000d776.css.map",
-    "main.bf0e6595.js.map": "/static/js/main.bf0e6595.js.map",
-    "787.05c3fce7.chunk.js.map": "/static/js/787.05c3fce7.chunk.js.map"
+    "main.css": "/petes-za/static/css/main.1000d776.css",
+    "main.js": "/petes-za/static/js/main.3e173cf6.js",
+    "static/js/787.05c3fce7.chunk.js": "/petes-za/static/js/787.05c3fce7.chunk.js",
+    "static/media/brenan-greene-HPZs4EXRFSU-unsplash.jpg": "/petes-za/static/media/brenan-greene-HPZs4EXRFSU-unsplash.ede5c9e389ac4a1c1d6d.jpg",
+    "static/media/masimo-grabar-NzHRSLhc6Cs-unsplash.jpg": "/petes-za/static/media/masimo-grabar-NzHRSLhc6Cs-unsplash.fb586710978de4f8ef40.jpg",
+    "index.html": "/petes-za/index.html",
+    "main.1000d776.css.map": "/petes-za/static/css/main.1000d776.css.map",
+    "main.3e173cf6.js.map": "/petes-za/static/js/main.3e173cf6.js.map",
+    "787.05c3fce7.chunk.js.map": "/petes-za/static/js/787.05c3fce7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1000d776.css",
-    "static/js/main.bf0e6595.js"
+    "static/js/main.3e173cf6.js"
   ]
 }
