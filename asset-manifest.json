@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/petes-za/static/css/main.8e5cb034.css",
-    "main.js": "/petes-za/static/js/main.d333d349.js",
+    "main.css": "/petes-za/static/css/main.7cc1900a.css",
+    "main.js": "/petes-za/static/js/main.c1d1797e.js",
     "static/js/787.05c3fce7.chunk.js": "/petes-za/static/js/787.05c3fce7.chunk.js",
+    "static/media/advocator-sy-s6PRxl4CpF0-unsplash.jpg": "/petes-za/static/media/advocator-sy-s6PRxl4CpF0-unsplash.8ddc4ef45dd82446ca0c.jpg",
     "static/media/brenan-greene-HPZs4EXRFSU-unsplash.jpg": "/petes-za/static/media/brenan-greene-HPZs4EXRFSU-unsplash.ede5c9e389ac4a1c1d6d.jpg",
+    "static/media/alan-hardman-SU1LFoeEUkk-unsplash.jpg": "/petes-za/static/media/alan-hardman-SU1LFoeEUkk-unsplash.d6eb33c342a16a6ffaa8.jpg",
     "static/media/masimo-grabar-NzHRSLhc6Cs-unsplash.jpg": "/petes-za/static/media/masimo-grabar-NzHRSLhc6Cs-unsplash.fb586710978de4f8ef40.jpg",
     "index.html": "/petes-za/index.html",
-    "main.8e5cb034.css.map": "/petes-za/static/css/main.8e5cb034.css.map",
-    "main.d333d349.js.map": "/petes-za/static/js/main.d333d349.js.map",
+    "main.7cc1900a.css.map": "/petes-za/static/css/main.7cc1900a.css.map",
+    "main.c1d1797e.js.map": "/petes-za/static/js/main.c1d1797e.js.map",
     "787.05c3fce7.chunk.js.map": "/petes-za/static/js/787.05c3fce7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e5cb034.css",
-    "static/js/main.d333d349.js"
+    "static/css/main.7cc1900a.css",
+    "static/js/main.c1d1797e.js"
   ]
 }
