@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'
+import LocalPizzaIcon from '@mui/icons-material/LocalPizza';
 
 function Navbar() {
 
@@ -8,30 +9,34 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1 className="">Pete's Za</h1>
+        <div className='leftSide'>
+      <h1 className="leftside">Pete's Za</h1>
+      <LocalPizzaIcon />
+      </div>
+      <div className='rightSide'>
       <ul className="">
-        <li className="">
-          <Link to="/" className="">
+        <li>
+          <Link to="/">
             Home
           </Link>
         </li>
-        <li className="">
-          <Link to="/about" className="">
+        <li>
+          <Link to="/about">
             About
           </Link>
         </li>
-        <li className="">
-          <Link to="/menu" className="">
+        <li>
+          <Link to="/menu">
             Menu
           </Link>
         </li>
-        <li className="">
-          <Link to="/contact" className="">
+        <li>
+          <Link to="/contact">
             Contact
           </Link>
         </li>
       </ul>
-      <div className=""></div>
+      </div>
     </nav>
   );
 }
