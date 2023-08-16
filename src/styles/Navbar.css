@@ -8,7 +8,35 @@
 
 .navbar ul {
     list-style: none;
+    display: flex;
+    padding: 0;
 }
+
+.navbar ul li {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add transition for a smoother effect */
+    transition: width 0.3s, height 0.4s, background-color 0.3s;
+}
+
+.navbar ul li:hover {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #912413;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .svg {
     height: 50%;
@@ -26,9 +54,11 @@
 .navbar .rightSide {
     flex: 50%;
     height: 100%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 
 .navbar a {
@@ -36,6 +66,13 @@
     text-decoration: none;
     margin: 20px;
 }
+
+li:hover {
+    opacity: .8;
+    background-color: #b02c2a;
+    border-radius: 50%;   
+    height: 100%;
+  }
 
 @media only screen and (max-width: 900px) {
     .navbar .rightSide a {
