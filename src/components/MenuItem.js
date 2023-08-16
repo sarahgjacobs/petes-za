@@ -1,12 +1,14 @@
 import React from 'react'
 
-function MenuItem({image, name, price}) {
+function MenuItem({ name, toppings, price, image}) {
   return (
     <div className='menuItem'>
         <div></div>
-        <div style={{backgroundImage: `url(${image})`}}></div>        
         <h1> {name} </h1>
+        <p> {toppings} </p>
         <p> {price} </p>
+        <div style={{backgroundImage: `url(${image})`}}></div>        
+        
     </div>
   )
 }

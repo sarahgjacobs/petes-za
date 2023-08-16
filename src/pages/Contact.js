@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Contact.css'
 
 function Contact() {
   return (
@@ -9,12 +10,12 @@ function Contact() {
     </div>
     <div className='rightSide'></div>
     <form className='contactForm' method='POST'>
-        <label htmlfor="name">First and Last Name</label>
+        <label htmlfor="name"></label>
         <input name="name" placeholder='First and Last Name' type='text' />
-        <label htmlfor="email">Email</label>
+        <label htmlfor="email"></label>
         <input name="email" placeholder='Email Address' type='email' />
-        <label htmlfor="message">Message</label>
-        <textarea rows="6" name="message" placeholder='Message'>Enter Your Message</textarea>
+        <label htmlfor="message"></label>
+        <textarea rows="6" name="message" placeholder='Enter Your Message'></textarea>
         <button type="submit">Submit</button>
 
     </form>
