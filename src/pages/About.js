@@ -10,7 +10,7 @@ function About() {
         
         </div>
             <div className='aboutBottom'>
-            <h2>Pete's Za was established in 2023 </h2>
+            <h2>Pete's Za: Where Flavor Meets Freshness in Every Bite </h2>
         <h3>Hey there, pizza enthusiasts! Let us spin you a tale about Pete – a 
             true farm-to-table champion turned pizza maestro. Born and raised on 
             a farm, Pete's love for fresh, lip-smacking goodness led him to 

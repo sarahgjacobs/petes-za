@@ -34,10 +34,21 @@ body {
 
 button {
     background-color: #F9EBB2;
-    padding: 8px;
-    border-radius: 10px;
-    align-items: center;
-    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #ebd570;
+    transform: scale(1.05);
 }
 
 h1 {

@@ -3,6 +3,8 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
+    color: #E74C3C;
+    
   }
   
   .aboutTop {
@@ -12,26 +14,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #F9EBB2;
   }
   
   .aboutBottom {
     display: flex;
     flex-direction: column;
     height: 55%;
+    width: 60%;
     align-items: center;
-    margin-top: 50px;
-  }
-  
-  .aboutBottom p {
-    width: 1200px;
-  }
-  
-  .about .aboutBottom h1 {
-    font-weight: 400;
-    font-size: 70px;
-    color: black;
-    height: 30px;
     display: flex;
-    justify-content: center;
-    transform: translateY(-40px);
+    margin-top: 50px;
+    margin-left: 18%;
+    background-color: #F9EBB2;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 26px;
   }
